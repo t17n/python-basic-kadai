@@ -23,4 +23,4 @@ print(list[2])
 
 # ディクショナリから取り出し
 print(dictionary["wed"])
-水曜日は晴れです
+晴れ
