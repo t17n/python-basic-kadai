@@ -19,6 +19,8 @@ dictionary = {
 
 # リストから取り出し
 print(list[2])
+水曜日は晴れです
 
 # ディクショナリから取り出し
 print(dictionary["wed"])
+水曜日は晴れです
