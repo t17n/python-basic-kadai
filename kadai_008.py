@@ -6,7 +6,7 @@ if var % 3 == 0:
      print("Fizz")
 elif var % 5 == 0:
      print("Buzz")
-elif (var % 3 == 0) and (var % 5 == 0):
+elif var % 3 == 0 and var % 5 == 0:
      print("FizzBuzz")
 else:
      print(var)
