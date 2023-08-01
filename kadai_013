@@ -1,7 +1,0 @@
->>> def add_two_arguments(price, tax):
-...   total = price + (price * tax)
-...   print(total)
-...
->>> add_two_arguments(500, 0.1)
-550.0
->>>
