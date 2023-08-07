@@ -1,0 +1,18 @@
+#Power Shellで作成
+
+"""
+>>> class Human:
+...   def __init__(self, name, age):
+...     self.name = name
+...     self.age = age
+...   def set_printinfo(self, name):
+...     self.name = name
+...   def show_printinfo(self):
+...     print(self.name)
+...
+>>> human = Human("Takahiro",33)
+>>> print(human.name)
+Takahiro
+>>> print(human.age)
+33
+"""
