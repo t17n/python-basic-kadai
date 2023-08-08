@@ -1,0 +1,22 @@
+#VSCode使用
+
+class Human:
+   def __init__(self, name, age):
+     self.name = name
+     self.age = age
+   def check_adult(self):
+     if self.age <= 20:
+       print(f"{self.name}は未成年です。")
+     else:
+       print(f"{self.name}は{self.age}歳（大人）です。")
+
+humans = [Human("一郎", 30),Human( "次郎", 20),Human("三郎", 10)]
+for human in humans:
+   human.check_adult()
+
+#出力内容
+"""
+一郎は30歳（大人）です。
+次郎は未成年です。
+三郎は未成年です。
+"""
